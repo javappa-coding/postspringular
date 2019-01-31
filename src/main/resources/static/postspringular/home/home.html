@@ -1,0 +1,32 @@
+<div class="container-fluid home-scope">
+	<span class="pull-right home-scope-color">{{homeScopeLabel}}</span>
+	<div
+		class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 tiled-style">
+		<img src="../../postspringular/assets/javappa-logo-ok.jpg"
+			class="img-responsive javappa-logo" src="https://www.javappa.com"
+			style="cursor: pointer;">
+		<div class="vertical-box-divider-large"></div>
+		<p class="text-center font-title">
+			<a href="" ng-click="loadItems()" target="_blank">Run It!</a>
+		</p>
+		<div class="vertical-box-divider"></div>
+		<p class="text-center">
+			<a href="/console" target="_blank"><b> H2 Database </b></a>
+		</p>
+		<div class="vertical-box-divider-larger"></div>
+		<div class="col-md-12">
+			<span class="help-block help-block-javappa">Database is
+				included. This is H2 Database Engine implementation. <br /> Click
+				the link <i>H2 Database</i> and next click <i>Connect</i> and then
+				you can write your queries.
+			</span>
+		</div>
+	</div>
+	<div
+		class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 tiled-style tiled-style-extra-padding"
+		ng-show="isLoadCompleted()">
+		<div ng-repeat="item in items">{{item.name}}</div>
+		<span>{{status}}</span>
+	</div>
+</div>
+    

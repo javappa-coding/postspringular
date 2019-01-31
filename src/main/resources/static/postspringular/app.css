@@ -1,0 +1,67 @@
+.container-fluid {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.font-title {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.tiled-style {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding-left: 0px !important;
+	border: 1px solid gray;
+	box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.tiled-style-extra-padding {
+	padding: 10px 0px 10px 10px !important;
+}
+
+.vertical-box-divider {
+	height: 40px;
+}
+
+.vertical-box-divider-large {
+	height: 60px;
+}
+
+.vertical-box-divider-larger {
+	height: 80px;
+}
+
+.help-block-javappa {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.javappa-logo {
+	min-width: 120px;
+	width: 160px;
+	height: auto;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-bottom: 2px;
+	margin-bottom: 7px;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.root-scope {
+	border: 1px solid #ff0000;
+}
+
+.root-scope-color {
+	color: #ff0000;
+}
+
+.home-scope {
+	border: 1px solid #0000ff;
+}
+
+.home-scope-color {
+	color: #0000ff;
+}
