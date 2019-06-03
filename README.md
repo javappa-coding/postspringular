@@ -16,3 +16,12 @@ Aplikacja ma być bazą do budowy większego systemu, odpowiedzialnego za przech
 ...
 
 Więcej na stronie: <a href="https://www.javappa.com/blog/frontend/projekt-startowy-spring-boot-plus-angularjs" target="_blank">Projekt startowy Spring Boot + AngularJS</a>
+
+
+Dla początkujących polecamy również darmowe kursy:
+
+https://www.javappa.com/kurs-java
+
+https://www.javappa.com/kurs-spring
+
+https://www.javappa.com/kurs-angularjs
